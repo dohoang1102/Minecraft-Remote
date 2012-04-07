@@ -11,8 +11,6 @@ Installation:
 	Theres really not much to it, simply change the code to go to your server/directory, and click "Run" and it should compile fine.
 
 
-![Screen shot 1](/williamfs/Minecraft-Remote/Minecraft-Remote/README.rtfd/Screen Shot 2012-04-07 at 5.52.00 PM.png)
-
-		If you have any questions, feel free to ask.
+If you have any questions, feel free to ask.
 
 Willsmillie.com

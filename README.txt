@@ -10,6 +10,8 @@ Set Up:
 Installation:
 	Theres really not much to it, simply change the code to go to your server/directory, and click "Run" and it should compile fine.
 
+Here is a screen shot of the application: http://www.flickr.com/photos/78599471@N02/7054915383/in/photostream
+
 
 If you have any questions, feel free to ask.
 

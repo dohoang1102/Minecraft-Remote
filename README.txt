@@ -1,4 +1,4 @@
-What is it?
+**What is it?**
 	Minecraft Remote is an easy to use GUI for your Minecraft server. This can either be used as is, or be edited to your liking. The code is fairly simple and written in applescript/cocoa.
 
 How dose it work?

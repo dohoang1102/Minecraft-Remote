@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BCFCB6915307347007175C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCFCB6815307347007175C2 /* Cocoa.framework */; };
+		8BCFCB6B15307347007175C2 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCFCB6A15307347007175C2 /* AppleScriptObjC.framework */; };
+		8BCFCB7515307347007175C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFCB7315307347007175C2 /* InfoPlist.strings */; };
+		8BCFCB7715307347007175C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFCB7615307347007175C2 /* main.m */; };
+		8BCFCB7B15307347007175C2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFCB7915307347007175C2 /* Credits.rtf */; };
+		8BCFCB7D15307347007175C2 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFCB7C15307347007175C2 /* AppDelegate.applescript */; };
+		8BCFCB8015307347007175C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFCB7E15307347007175C2 /* MainMenu.xib */; };
+		8BF7A5691530DD5D00138867 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8BF7A5681530DD5D00138867 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BCFCB6415307347007175C2 /* Minecraft Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minecraft Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCFCB6815307347007175C2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8BCFCB6A15307347007175C2 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		8BCFCB6D15307347007175C2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8BCFCB6E15307347007175C2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8BCFCB6F15307347007175C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BCFCB7215307347007175C2 /* Minecraft Remote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Minecraft Remote-Info.plist"; sourceTree = "<group>"; };
+		8BCFCB7415307347007175C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BCFCB7615307347007175C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BCFCB7815307347007175C2 /* Minecraft Remote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Minecraft Remote-Prefix.pch"; sourceTree = "<group>"; };
+		8BCFCB7A15307347007175C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8BCFCB7C15307347007175C2 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		8BCFCB7F15307347007175C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8BF7A5681530DD5D00138867 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BCFCB6115307347007175C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCFCB6915307347007175C2 /* Cocoa.framework in Frameworks */,
+				8BCFCB6B15307347007175C2 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BCFCB5915307347007175C2 = {
+			isa = PBXGroup;
+			children = (
+				8BCFCB7015307347007175C2 /* Minecraft Remote */,
+				8BCFCB6715307347007175C2 /* Frameworks */,
+				8BCFCB6515307347007175C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BCFCB6515307347007175C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFCB6415307347007175C2 /* Minecraft Remote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BCFCB6715307347007175C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFCB6815307347007175C2 /* Cocoa.framework */,
+				8BCFCB6A15307347007175C2 /* AppleScriptObjC.framework */,
+				8BCFCB6C15307347007175C2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BCFCB6C15307347007175C2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFCB6D15307347007175C2 /* AppKit.framework */,
+				8BCFCB6E15307347007175C2 /* CoreData.framework */,
+				8BCFCB6F15307347007175C2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8BCFCB7015307347007175C2 /* Minecraft Remote */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFCB7C15307347007175C2 /* AppDelegate.applescript */,
+				8BCFCB7E15307347007175C2 /* MainMenu.xib */,
+				8BCFCB7115307347007175C2 /* Supporting Files */,
+			);
+			path = "Minecraft Remote";
+			sourceTree = "<group>";
+		};
+		8BCFCB7115307347007175C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7A5681530DD5D00138867 /* icon.icns */,
+				8BCFCB7215307347007175C2 /* Minecraft Remote-Info.plist */,
+				8BCFCB7315307347007175C2 /* InfoPlist.strings */,
+				8BCFCB7615307347007175C2 /* main.m */,
+				8BCFCB7815307347007175C2 /* Minecraft Remote-Prefix.pch */,
+				8BCFCB7915307347007175C2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BCFCB6315307347007175C2 /* Minecraft Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCFCB8315307347007175C2 /* Build configuration list for PBXNativeTarget "Minecraft Remote" */;
+			buildPhases = (
+				8BCFCB6015307347007175C2 /* Sources */,
+				8BCFCB6115307347007175C2 /* Frameworks */,
+				8BCFCB6215307347007175C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minecraft Remote";
+			productName = "Minecraft Remote";
+			productReference = 8BCFCB6415307347007175C2 /* Minecraft Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BCFCB5B15307347007175C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8BCFCB5E15307347007175C2 /* Build configuration list for PBXProject "Minecraft Remote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BCFCB5915307347007175C2;
+			productRefGroup = 8BCFCB6515307347007175C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BCFCB6315307347007175C2 /* Minecraft Remote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BCFCB6215307347007175C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCFCB7515307347007175C2 /* InfoPlist.strings in Resources */,
+				8BCFCB7B15307347007175C2 /* Credits.rtf in Resources */,
+				8BCFCB8015307347007175C2 /* MainMenu.xib in Resources */,
+				8BF7A5691530DD5D00138867 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BCFCB6015307347007175C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCFCB7715307347007175C2 /* main.m in Sources */,
+				8BCFCB7D15307347007175C2 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BCFCB7315307347007175C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BCFCB7415307347007175C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BCFCB7915307347007175C2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BCFCB7A15307347007175C2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8BCFCB7E15307347007175C2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BCFCB7F15307347007175C2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BCFCB8115307347007175C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8BCFCB8215307347007175C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8BCFCB8415307347007175C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minecraft Remote/Minecraft Remote-Prefix.pch";
+				INFOPLIST_FILE = "Minecraft Remote/Minecraft Remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BCFCB8515307347007175C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Minecraft Remote/Minecraft Remote-Prefix.pch";
+				INFOPLIST_FILE = "Minecraft Remote/Minecraft Remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BCFCB5E15307347007175C2 /* Build configuration list for PBXProject "Minecraft Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCFCB8115307347007175C2 /* Debug */,
+				8BCFCB8215307347007175C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BCFCB8315307347007175C2 /* Build configuration list for PBXNativeTarget "Minecraft Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCFCB8415307347007175C2 /* Debug */,
+				8BCFCB8515307347007175C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BCFCB5B15307347007175C2 /* Project object */;
+}

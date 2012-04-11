@@ -22,7 +22,6 @@ script AppDelegate
     --runs when you press the 'connect button'
     on Connect_(sender)
         tell application "Terminal"
-            delay 8
             
             --get to the Minecraft diriectory
             do script "cd /users/" -- opens a new window (leave this line)
